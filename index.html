@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>ほろよい時間計測</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>-->
+</head>
+
+<body>
+    <script src='app.js'></script>
+    <h3>ほろよい時間計算</h3>
+    <div>
+        <!--入力欄-->
+        <p><label>君の体重[kg]<input id="weight" type="text" size="10" maxlength="8"></label></p>
+        <p><label>ほろよいたい時間[h]<input id="time" type="text" size="10" maxlength="8"></label></p>
+        <p><label>君のお酒のアルコール度数[%]<input id="par" type="text" size="10" maxlength="8"></label></p>
+    </div>
+    <div>
+        <!--ボタン設置-->
+        <p><input type="button" id="getResult" value="時間計算スタート" onclick="func()"></p>
+    </div>
+    <p>
+        <!--結果表示-->
+        
+        <label>君のお酒(アルコール度数:<input id="par_value" type="text" size="10" maxlength="8">%)は<input id="cas_value" type="text" size="10" maxlength="8"></label>
+        <label>[ml]飲めるよ！</label>
+        <br>
+        <br>
+        <label>ビール(アルコール度数:5%)は<input id="beer_value" type="text" size="10" maxlength="8"></label>
+        <label>[ml]飲めるよ！</label>
+        <br>
+        <label>ワイン(アルコール度数:12%)は<input id="wine_value" type="text" size="10" maxlength="8"></label>
+        <label>[ml]飲めるよ！</label>
+        <br>
+        <label>スピリタス(アルコール度数:96%)は<input id="sp_value" type="text" size="10" maxlength="8"></label>
+        <label>[ml]飲めるよ！</label>
+        <br>
+        <br>
+        お酒の量目安：
+        <br>
+        缶酒：350ml（ロング缶500ml）
+        <br>
+        中ジョッキ：350〜500ml
+        <br>
+        ショットグラス(シングル)：30ml
+        <br>
+        <br>
+        <br>
+        ！！注意！！
+        <br>この計算はあくまで目安だよ
+        <br>体調や相性によって変わるから
+        <br>様子を見ながら気をつけて楽しもう！
+        <br>
+        <br>よーちゃんより
+
+    </p>
+    </div>
+</body>
+
+</html>
